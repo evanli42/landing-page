@@ -1,0 +1,188 @@
+div {
+  border: red solid 1px;
+  font-family: sans-serif;
+}
+
+.section-1, .footer {
+  background: #1F2937;
+}
+
+.section-1 {
+  padding-left: 410px;
+  padding-right: 410px;
+  padding-bottom: 100px;
+}
+
+.header-and-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.header {
+  font-size: 24px;
+  color: #F9FAF8;
+  padding: 20px;
+}
+
+.links a, ul {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.text-and-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-info {
+  margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 450px;
+  max-width: 450px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.text {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.sign-up {
+  margin-top: 12px;
+  background: #3882F6;
+  color: #E5E7EB;
+  height: 30px;
+  min-width: 100px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.pic-box {
+  height: 260px;
+  max-width: 550px;
+  min-width: 550px;
+}
+
+/* This is the start of section 2 */
+
+.section-2 {
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.random-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.random-info-pic {
+  display: flex;
+  flex-flow; column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.pic-info {
+  max-width: 175px;
+}
+
+.pic {
+  border-radius: 8px;
+  border-color: rgb(64, 132, 235);
+  min-height: 175px;
+}
+
+/* This is the start of section 3 */
+
+.section-3 {
+  background: #E5E7EB;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 840px;
+}
+
+.source {
+  font-weight: 800;
+  margin-left: 582px;
+}
+
+/* This is the start of section 4 */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.signup-reminders {
+  background: #3882F6;
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 50px;
+  color: white;
+  flex-shrink: 0;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.reminder-1 {
+  font-weight: 800;
+  margin-right: 50px;
+  min-width: 700px;
+  font-size: 20px;
+}
+
+.reminder-2 {
+  font-size: 12px;
+  min-width: 600px;
+  font-weight: 300;
+}
+
+button.sign-up-2 {
+  border-radius: 8px;
+  border-color: #E5E7EB;
+  color: #E5E7EB;
+  background:rgb(64, 132, 235);
+  min-width: 100px;
+  font-weight: 800;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
