@@ -1,5 +1,4 @@
 div {
-  border: red solid 1px;
   font-family: sans-serif;
 }
 
@@ -76,8 +75,13 @@ div {
 
 .pic-box {
   height: 260px;
-  max-width: 550px;
-  min-width: 550px;
+  max-width: 480px;
+  min-width: 480px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* This is the start of section 2 */
@@ -108,7 +112,7 @@ div {
 
 .pic {
   border-radius: 8px;
-  border-color: rgb(64, 132, 235);
+  border: solid rgb(64, 132, 235);
   min-height: 175px;
 }
 
@@ -173,8 +177,8 @@ div {
 
 button.sign-up-2 {
   border-radius: 8px;
-  border-color: #E5E7EB;
-  color: #E5E7EB;
+  border-color: white;
+  color: white;
   background:rgb(64, 132, 235);
   min-width: 100px;
   font-weight: 800;
